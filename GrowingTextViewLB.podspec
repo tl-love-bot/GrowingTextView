@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.swift_version = '4.2'
 
   spec.author           = { 'tl-love-bot' => 'lovebot@theleague.com' }
-  spec.source           = { :git => 'https://github.com/$tl-love-bot/GrowingTextView.git', :tag => "#{spec.version}" }
+  spec.source           = { :git => 'https://github.com/tl-love-bot/GrowingTextView.git', :tag => "#{spec.version}" }
 
   spec.ios.deployment_target = '8.0'
 
