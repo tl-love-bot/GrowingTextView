@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "GrowingTextView"
-  spec.version      = "0.6.3"
+  spec.version      = "0.6.2"
   spec.summary      = "UITextView for Swift4. Support auto growing, placeholder and length limit."
 
 
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.license      = 'miT'
 
   spec.author           = { 'tl-love-bot' => 'lovebot@theleague.com' }
-  spec.source           = { :git => 'https://github.com/$tl-love-bot/GrowingTextView.git'}
+  spec.source           = { :git => 'https://github.com/$tl-love-bot/GrowingTextView.git', :tag => "#{spec.version}" }
 
   spec.ios.deployment_target = '8.0'
 
