@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "GrowingTextView"
-  spec.version      = "0.6.2"
+  spec.version      = "0.6.3"
   spec.summary      = "UITextView for Swift4. Support auto growing, placeholder and length limit."
 
 
