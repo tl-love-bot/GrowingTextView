@@ -8,8 +8,8 @@ Pod::Spec.new do |spec|
   spec.description  = "Fork of GrowingTextView to handle naming ambiguity conflict. Uses placeholderGrowing instead of placeholder"
 
   spec.homepage         = 'https://github.com/tl-love-bot/GrowingTextView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  spec.license      = 'miT'
+  spec.license      = 'MIT'
+  spec.swift_version = '4.2'
 
   spec.author           = { 'tl-love-bot' => 'lovebot@theleague.com' }
   spec.source           = { :git => 'https://github.com/$tl-love-bot/GrowingTextView.git', :tag => "#{spec.version}" }
